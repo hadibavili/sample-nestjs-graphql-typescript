@@ -1,0 +1,27 @@
+type Author {
+   id: String!
+   name: String!
+   age: Int
+   books: [Book]
+}
+
+input createAuthorInput {
+   name: String!
+   age: Int
+}
+
+input updateAuthorInput {
+   _id: String!
+   name: String
+   age: Int
+}
+
+type Query {
+   authors: [Author]
+   author(id: String!): Author
+}
+
+type Mutation {
+   createAuthor(body: createAuthorInput!): Author
+   updateAuthor(body: updateAuthorInput!): Author
+}
