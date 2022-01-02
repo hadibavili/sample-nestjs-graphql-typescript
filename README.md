@@ -1,6 +1,6 @@
 # ✅ 🚀 Nest.js-GraphQL-Typescript
 
-Simple Graphql example with Node.js using Express (Nestjs), Apollo and Mongoose in TypeScript
+Sample Graphql example with Node.js using Express (Nestjs), Apollo and Mongoose in TypeScript
 
 ## Technologies Used
 `GraphQL`,`Nest.js`,`Mongoose`,`typescript`,`Apollo-server`
