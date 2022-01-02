@@ -27,14 +27,14 @@ npm run start:prod
 `http://localhost:3000/GraphQL`
 
 ## Project structure
-Resolver: For handle grapql query and call services
+**Resolver**: For handle grapql query and call services
 
-Service: Handle logic of queries and db integration
+**Service**: Handle logic of queries and db integration
 
-Model: Feild of GraplQL queries for each module
+**Model**: Feild of GraplQL queries for each module
 
-Module: provides metadata that Nest makes use of to organize the application structure
+**Module**: provides metadata that Nest makes use of to organize the application structure
 
-Schema: Database field for mongoose schema
+**Schema**: Database field for mongoose schema
 
-Dto: Acceptable field for mutation GraphQL query (Validation)
+**Dto**: Acceptable field for mutation GraphQL query (Validation)
